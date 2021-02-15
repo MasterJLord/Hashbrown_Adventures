@@ -418,7 +418,7 @@ actions = {
         
 def startup():
     typewriter("Welcome to the tutorial!")
-    typewriter('.')
+    typewriter('To play, choose an action or a target when prompted. You should start by using the action "list". This will allow you to list the other possible actions or the possible targets of those actions. You may also quit at any time by entering "quit". Also note that some rooms will have in them objects with which you cannot target as an action- these are objects from your inventory that you can use on something else, and looking at these may be useful to provide hints. Also remember to list objects and abilities, which change often- abilities after completing the tutorial, and objects each time you enter a new room.')
     objects.clear()
     objects.update({"game":{"play":end, "look":intro}})
     inventory = []
